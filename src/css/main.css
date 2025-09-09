@@ -12,3 +12,57 @@ img,
 video {
   display: block;
 }
+
+body {
+  background: #e7eaee;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ---- card ----- */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  width: 370px;
+  padding: 15px;
+  margin: 50px;
+
+  border-radius: 25px;
+  background: #fff;
+  box-shadow: 0 4px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card p {
+  font-size: 27px;
+}
+
+.card img {
+  height: 280px;
+  align-self: stretch;
+  border-radius: 25px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  width: 330px;
+  gap: 20px;
+}
+
+.author p {
+  font-size: 20px;
+}
+
+.date {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+}
+
+.author img {
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+}
