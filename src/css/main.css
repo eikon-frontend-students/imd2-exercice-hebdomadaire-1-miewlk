@@ -66,3 +66,28 @@ body {
   height: 56px;
   border-radius: 28px;
 }
+
+.card:hover {
+  animation-duration: 0.5s;
+  animation-name: grow;
+  animation-iteration-count: 1;
+}
+
+@keyframes grow {
+  0% {
+    scale: 100%;
+  }
+  10% {
+    scale: 95%;
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  75% {
+    scale: 105%;
+    box-shadow: 0 9px 10px 10px rgba(0, 0, 0, 0.03);
+  }
+
+  100% {
+    scale: 100%;
+  }
+}
